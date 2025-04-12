@@ -10,6 +10,9 @@ un vector de `PacketData`;
 - Am printat pachetele finale tot intr-un fisier pcap, am incercat sa le
 trimitem pe socket, dar nu functionaza.
 
+- Avem setat filename pentru ambele fisiere si de input si de output, se pot
+  modifica pentru testare
+
 Bonus:
 - Filtrarea am facut-o cu parallel_for si am mapat cu 0 si 1 pachetele de tip
 IPv4, iar dupa am aplicat parallel_reduce ca sa aflam numarul de pachete
